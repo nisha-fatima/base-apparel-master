@@ -1,0 +1,90 @@
+.container {
+  background-image: url(file:///D:/1/MY%20ASSIGNMENTS/base-apparel-master/src/assets/images/bg-pattern-desktop.svg);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstCont{
+  margin-left: 200px;
+}
+.header {
+  background-image: url(file:///C:/Users/ABC/Desktop/base-apparel-coming-soon-master/images/logo.svg);
+  height: 5.5vh;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+}
+
+.text {
+  color: hsl(0, 36%, 70%);
+  font-size: 50px;
+  margin-top: 45px;
+}
+
+.heading {
+  color: black;
+  font-size: 45px;
+}
+
+.heading1 {
+  color: black;
+  font-size: 45px;
+}
+
+.pera {
+  color: hsl(0, 36%, 70%);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.email {
+  margin-top: 35px;
+  height: 40px;
+  border: 3px solid hsl(0, 36%, 70%);
+  border-radius: 40px;
+}
+.email:focus {
+  outline: none;
+}
+
+.imageCont {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.image {
+  width: 60%;
+}
+
+.errorMessage {
+  color: hsl(0, 93%, 68%);
+  font-size: 12px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .container {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 150vh;
+  }
+  .header {
+   
+  }
+  .imageCont{
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+    /* margin-top: 20px */
+  }
+  .image{
+    object-fit: contain;
+    width: 100%;
+  }
+  .firstCont{
+    margin-left: 0px !important;
+    margin-bottom: 30px;
+  }
+}
